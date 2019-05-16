@@ -1,0 +1,111 @@
+#first-div,
+#second-div,
+#third-div,
+#fourth-div {
+    width: 100%;
+    height: 100px;
+}
+
+#first-div {
+    background-color: blue;
+}
+
+#second-div {
+    background-color: red;
+}
+
+#third-div {
+    background-color: papayawhip;
+}
+
+#fourth-div {
+    background-color: darksalmon;
+}
+
+#parent-div {
+    display: flex;
+}
+
+#parent-hai-div-dau {
+    display: flex;
+}
+
+#parent-hai-div-sau {
+    display: flex;
+}
+
+#parent-ba-div-sau {
+    display: flex;
+}
+
+@media only screen and (min-width:1200px) {
+
+    #parent-hai-dic-dau {
+        width: 100%;
+    }
+
+    #parent-hai-div-sau {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #parent-hai-div-dau {
+        width: 66%;
+    }
+
+    #parent-hai-div-sau {
+        width: 33%;
+    }
+
+    #fourth-div {
+        display: none;
+    }
+
+    #first-div,
+    #second-div,
+    #third-div {
+        width: 100%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 992px) {
+    #parent-hai-div-dau {
+        display: flex;
+    }
+
+    #parent-hai-div-sau {
+        display: flex;
+    }
+
+    #first-div,
+    #second-div,
+    #third-div,
+    #fourth-div {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #parent-hai-div-dau {
+        display: block;
+    }
+
+    #first-div,
+    #second-div,
+    #third-div,
+    #fourth-div {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+
+    #fourth-div {
+        display: none;
+    }
+}
