@@ -1,111 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Album</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $("button").click(function () {
-                $("#navbarHeader").slideToggle();
-            })
-        })
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js">
     </script>
+    <script src="album.js"></script>
 </head>
 
 <body>
-
-    <header class="">
-        <div class="container bg-dark">
+    <header class="post-f-t">
+        <div class=" container bg-dark">
             <div class="row">
                 <div class="col-12">
-                    <div class="row " id="navbarHeader">
-                        <div class="col-8">
-                            <h4 class="text-white">About</h4>
-                            <p class="text-muted">Add some information about the album below, the author, or any other
-                                background context. Make it a few sentences long so folks can pick up some informative
-                                tidbits. Then, link them off to some social networking sites or contact information.</p>
-                        </div>
-                        <div class="col-4">
-                            <h4 class="text-white">Contact</h4>
-                            <ul class="list-unstyled">
-                                <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                                <li><a href="#" class="text-white">Like on Facebook</a></li>
-                                <li><a href="#" class="text-white">Email me</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row navbar navbar-dark bg-dark">
-                        <div class="col-11">
-                            <a href="#" class="navbar-brand d-flex align-items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"
-                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24"
-                                    focusable="false">
-                                    <path
-                                        d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
-                                    </path>
-                                    <circle cx="12" cy="13" r="4"></circle>
-                                </svg>
-                                <strong>Album</strong>
-                            </a>
-                        </div>
-                        <div class="col-1">
-                            <nav class="navbar navbar-dark bg-dark">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                    data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false"
-                                    aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                            </nav>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row  " id="navbar">
+                                <div class="col-8">
+                                    <h4 class="text-white"> About</h4>
+                                    <p class="text-muted"> Add some information about the album below, the author, or
+                                        any
+                                        other background context. Make it a few sentences long so folks can pick up some
+                                        informative tidbits. Then, link them off to some social networking sites or
+                                        contact information.</p>
+                                </div>
+                                <div class="col-4">
+                                    <div class="text-white">
+                                        <h4>Contact</h4>
+                                    </div>
+                                    <ul class="list-unstyled">
+                                        <li><a href="" class="text-white">Follow on Twitter</a></li>
+                                        <li><a class="text-white">Like on Facebook</a></li>
+                                        <li><a class="text-white">Email me</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row navbar navbar-dark bg-dark">
+                                <div class="col-11">
+                                    <a href="" class=" navbar-brand d-flex aligh-items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24"
+                                            focusable="false">
+                                            <path
+                                                d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                                            </path>
+                                            <circle cx="12" cy="13" r="4"></circle>
+                                        </svg>
+                                        <strong>Album </strong>
+                                    </a>
+                                </div>
+                                <div class="col-1">
+                                    <nav class="row navbar navbar-dark bg-dark">
+                                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                            data-target="#navbarHeader" aria-controls="navbarHeader"
+                                            aria-expanded="false" aria-label="Toggle navigation">
+                                            <span class="navbar-toggler-icon"></span>
+                                        </button>
+                                    </nav>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-
-    <main class="">
-        <div class="container my-5">
+    <main>
+        <div class="my-5 container">
             <div class="row my-5">
-                <div class="col-6 offset-3 text-center ">
+                <div class="col-6 offset-3 text-center">
                     <div>
                         <h1>Album example</h1>
-                        <p class="text-muted lead">Something short and leading about the collection below—its contents,
+                        <p class="text-muted lead">Something short and leading about the collection below—its
+                            contents,
                             the
                             creator, etc. Make
-                            it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+                            it short and sweet, but not too short so folks don’t simply skip over it entirely.
+                        </p>
                         <p>
-                            <button class="btn btn-primary ">Main call to action</button>
-                            <button class="btn btn-secondary ">Secondary action</button>
+                            <button class="btn btn-primary">Main call to action</button>
+                            <button class="btn  btn-secondary"> Secondary action</button>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="row bg-light my-5">
+            <div class="row  my-5">
                 <div class="col-12">
                     <div class="row">
                         <div class="col-4">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="card mb-4 shadow-sm">
-                                        <img src="https://cleverhippo.org/wp-content/uploads/2018/06/youtube-thumbnail-template-youtube-thumbnail-template-dodh6pz0.jpg"
-                                            alt="">
-
+                                        <img src="http://imagesfb.tintuc.vn/upload/images/quangngai/20170429/qn-8.jpg">
                                         <div class="card-body">
-                                            <p class="card-text">This is a wider card with supporting text below as a
-                                                natural lead-in to additional content. This content is a little bit
-                                                longer.</p>
+                                            <p class="card-text">
+                                                This is a wider card with supporting text below as a natural
+                                                lead-in to
+                                                additional content. This content is a little bit longer.
+                                            </p>
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <div class="btn-group">
                                                     <button type="button"
-                                                        class="btn btn-sm btn-outline-secondary">View</button>
+                                                        class="btn btn-sm btn-outline-secondary">view</button>
                                                     <button type="button"
                                                         class="btn btn-sm btn-outline-secondary">Edit</button>
                                                 </div>
@@ -115,23 +116,22 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-4">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="card mb-4 shadow-sm">
-                                        <img src="https://cleverhippo.org/wp-content/uploads/2018/06/youtube-thumbnail-template-youtube-thumbnail-template-dodh6pz0.jpg"
-                                            alt="">
-
+                                        <img src="http://imagesfb.tintuc.vn/upload/images/quangngai/20170429/qn-8.jpg">
                                         <div class="card-body">
-                                            <p class="card-text">This is a wider card with supporting text below as a
-                                                natural lead-in to additional content. This content is a little bit
-                                                longer.</p>
+                                            <p class="card-text">
+                                                This is a wider card with supporting text below as a natural
+                                                lead-in to
+                                                additional content. This content is a little bit longer.
+                                            </p>
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <div class="btn-group">
                                                     <button type="button"
-                                                        class="btn btn-sm btn-outline-secondary">View</button>
+                                                        class="btn btn-sm btn-outline-secondary">view</button>
                                                     <button type="button"
                                                         class="btn btn-sm btn-outline-secondary">Edit</button>
                                                 </div>
@@ -141,23 +141,22 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-4">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="card mb-4 shadow-sm">
-                                        <img src="https://cleverhippo.org/wp-content/uploads/2018/06/youtube-thumbnail-template-youtube-thumbnail-template-dodh6pz0.jpg"
-                                            alt="">
-
+                                        <img src="http://imagesfb.tintuc.vn/upload/images/quangngai/20170429/qn-8.jpg">
                                         <div class="card-body">
-                                            <p class="card-text">This is a wider card with supporting text below as a
-                                                natural lead-in to additional content. This content is a little bit
-                                                longer.</p>
+                                            <p class="card-text">
+                                                This is a wider card with supporting text below as a natural
+                                                lead-in to
+                                                additional content. This content is a little bit longer.
+                                            </p>
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <div class="btn-group">
                                                     <button type="button"
-                                                        class="btn btn-sm btn-outline-secondary">View</button>
+                                                        class="btn btn-sm btn-outline-secondary">view</button>
                                                     <button type="button"
                                                         class="btn btn-sm btn-outline-secondary">Edit</button>
                                                 </div>
@@ -167,200 +166,201 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="card mb-4 shadow-sm">
-                                        <img src="https://cleverhippo.org/wp-content/uploads/2018/06/youtube-thumbnail-template-youtube-thumbnail-template-dodh6pz0.jpg"
-                                            alt="">
 
-                                        <div class="card-body">
-                                            <p class="card-text">This is a wider card with supporting text below as a
-                                                natural lead-in to additional content. This content is a little bit
-                                                longer.</p>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <div class="btn-group">
-                                                    <button type="button"
-                                                        class="btn btn-sm btn-outline-secondary">View</button>
-                                                    <button type="button"
-                                                        class="btn btn-sm btn-outline-secondary">Edit</button>
-                                                </div>
-                                                <small class="text-muted">9 mins</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-4">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="card mb-4 shadow-sm">
-                                        <img src="https://cleverhippo.org/wp-content/uploads/2018/06/youtube-thumbnail-template-youtube-thumbnail-template-dodh6pz0.jpg"
-                                            alt="">
-
-                                        <div class="card-body">
-                                            <p class="card-text">This is a wider card with supporting text below as a
-                                                natural lead-in to additional content. This content is a little bit
-                                                longer.</p>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <div class="btn-group">
-                                                    <button type="button"
-                                                        class="btn btn-sm btn-outline-secondary">View</button>
-                                                    <button type="button"
-                                                        class="btn btn-sm btn-outline-secondary">Edit</button>
-                                                </div>
-                                                <small class="text-muted">9 mins</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-4">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="card mb-4 shadow-sm">
-                                        <img src="https://cleverhippo.org/wp-content/uploads/2018/06/youtube-thumbnail-template-youtube-thumbnail-template-dodh6pz0.jpg"
-                                            alt="">
-
-                                        <div class="card-body">
-                                            <p class="card-text">This is a wider card with supporting text below as a
-                                                natural lead-in to additional content. This content is a little bit
-                                                longer.</p>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <div class="btn-group">
-                                                    <button type="button"
-                                                        class="btn btn-sm btn-outline-secondary">View</button>
-                                                    <button type="button"
-                                                        class="btn btn-sm btn-outline-secondary">Edit</button>
-                                                </div>
-                                                <small class="text-muted">9 mins</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="card mb-4 shadow-sm">
-                                        <img src="https://cleverhippo.org/wp-content/uploads/2018/06/youtube-thumbnail-template-youtube-thumbnail-template-dodh6pz0.jpg"
-                                            alt="">
-
-                                        <div class="card-body">
-                                            <p class="card-text">This is a wider card with supporting text below as a
-                                                natural lead-in to additional content. This content is a little bit
-                                                longer.</p>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <div class="btn-group">
-                                                    <button type="button"
-                                                        class="btn btn-sm btn-outline-secondary">View</button>
-                                                    <button type="button"
-                                                        class="btn btn-sm btn-outline-secondary">Edit</button>
-                                                </div>
-                                                <small class="text-muted">9 mins</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-4">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="card mb-4 shadow-sm">
-                                        <img src="https://cleverhippo.org/wp-content/uploads/2018/06/youtube-thumbnail-template-youtube-thumbnail-template-dodh6pz0.jpg"
-                                            alt="">
-
-                                        <div class="card-body">
-                                            <p class="card-text">This is a wider card with supporting text below as a
-                                                natural lead-in to additional content. This content is a little bit
-                                                longer.</p>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <div class="btn-group">
-                                                    <button type="button"
-                                                        class="btn btn-sm btn-outline-secondary">View</button>
-                                                    <button type="button"
-                                                        class="btn btn-sm btn-outline-secondary">Edit</button>
-                                                </div>
-                                                <small class="text-muted">9 mins</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-4">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="card mb-4 shadow-sm">
-                                        <img src="https://cleverhippo.org/wp-content/uploads/2018/06/youtube-thumbnail-template-youtube-thumbnail-template-dodh6pz0.jpg"
-                                            alt="">
-
-                                        <div class="card-body">
-                                            <p class="card-text">This is a wider card with supporting text below as a
-                                                natural lead-in to additional content. This content is a little bit
-                                                longer.</p>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <div class="btn-group">
-                                                    <button type="button"
-                                                        class="btn btn-sm btn-outline-secondary">View</button>
-                                                    <button type="button"
-                                                        class="btn btn-sm btn-outline-secondary">Edit</button>
-                                                </div>
-                                                <small class="text-muted">9 mins</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
                     </div>
                 </div>
             </div>
+            <div class="row my-5">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img src="http://imagesfb.tintuc.vn/upload/images/quangngai/20170429/qn-8.jpg">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                This is a wider card with supporting text below as a natural
+                                                lead-in to
+                                                additional content. This content is a little bit longer.
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                    <button type="button"
+                                                        class="btn btn-sm btn-outline-secondary">view</button>
+                                                    <button type="button"
+                                                        class="btn btn-sm btn-outline-secondary">Edit</button>
+                                                </div>
+                                                <small class="text-muted">9 mins</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img src="http://imagesfb.tintuc.vn/upload/images/quangngai/20170429/qn-8.jpg">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                This is a wider card with supporting text below as a natural
+                                                lead-in to
+                                                additional content. This content is a little bit longer.
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                    <button type="button"
+                                                        class="btn btn-sm btn-outline-secondary">view</button>
+                                                    <button type="button"
+                                                        class="btn btn-sm btn-outline-secondary">Edit</button>
+                                                </div>
+                                                <small class="text-muted">9 mins</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img src="http://imagesfb.tintuc.vn/upload/images/quangngai/20170429/qn-8.jpg">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                This is a wider card with supporting text below as a natural
+                                                lead-in to
+                                                additional content. This content is a little bit longer.
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                    <button type="button"
+                                                        class="btn btn-sm btn-outline-secondary">view</button>
+                                                    <button type="button"
+                                                        class="btn btn-sm btn-outline-secondary">Edit</button>
+                                                </div>
+                                                <small class="text-muted">9 mins</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img src="http://imagesfb.tintuc.vn/upload/images/quangngai/20170429/qn-8.jpg">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                This is a wider card with supporting text below as a natural
+                                                lead-in to
+                                                additional content. This content is a little bit longer.
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                    <button type="button"
+                                                        class="btn btn-sm btn-outline-secondary">view</button>
+                                                    <button type="button"
+                                                        class="btn btn-sm btn-outline-secondary">Edit</button>
+                                                </div>
+                                                <small class="text-muted">9 mins</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img src="http://imagesfb.tintuc.vn/upload/images/quangngai/20170429/qn-8.jpg">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                This is a wider card with supporting text below as a natural
+                                                lead-in to
+                                                additional content. This content is a little bit longer.
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                    <button type="button"
+                                                        class="btn btn-sm btn-outline-secondary">view</button>
+                                                    <button type="button"
+                                                        class="btn btn-sm btn-outline-secondary">Edit</button>
+                                                </div>
+                                                <small class="text-muted">9 mins</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img src="http://imagesfb.tintuc.vn/upload/images/quangngai/20170429/qn-8.jpg">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                This is a wider card with supporting text below as a natural
+                                                lead-in to
+                                                additional content. This content is a little bit longer.
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                    <button type="button"
+                                                        class="btn btn-sm btn-outline-secondary">view</button>
+                                                    <button type="button"
+                                                        class="btn btn-sm btn-outline-secondary">Edit</button>
+                                                </div>
+                                                <small class="text-muted">9 mins</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </main>
     <footer class="my-5">
         <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <p class="text-muted mb-0">Album example is &copy Bootstrap, but please download and customize it
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-8">
+                    <p class="text-muted mb-0"> Album example is &copy Bootstrap, but please download and
+                        customize it
                         for
-                        yourself!
-                    </p>
-                    <p class="text-muted my-0">
-                        New to Bootstrap? <a href="#">Visit the homepage </a> or read our <a href="#">getting started
+                        yourself!</p>
+                    <p class="text-muted my-0 ">
+                        New to Bootstrap?<a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">Visit
+                            the homepage</a> or read our<a
+                            href="https://getbootstrap.com/docs/4.1/getting-started/introduction/"> getting
+                            started
                             guide.</a>
                     </p>
-
                 </div>
-
-                <div class="col-4">
-
-                </div>
+                <div class="col-2"></div>
                 <div class="col-2">
-                    <a href="#">Back to top</a>
+                    <a href="">Back to top</a>
                 </div>
             </div>
         </div>
     </footer>
-
-
-
 </body>
 
 </html>
