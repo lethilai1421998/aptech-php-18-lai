@@ -1,3 +1,27 @@
+function create(nameOfElement) {
+    return document.createElement(nameOfElement);
+}
+
+var table = create("table");
+
+var thead = create("thead");
+table.appendChild(thead);
+var tr = create("tr");
+thead.appendChild(tr);
+
+var array = ["ID", "Name"];
+for (var i = 0; i < array.length; i++) {
+    var th = create("th");
+    var id = document.createTextNode(array[i]);
+    th.appendChild(id);
+    tr.appendChild(th);
+}
+
+var tbody = create("tbody");
+table.appendChild(tbody);
+
+document.body.appendChild(table);
+
 var data = {
     users: [{
             id: 10,
@@ -25,55 +49,18 @@ var data = {
         }
     ]
 };
-// tạo một function thay cho document.createElement(" ")
-function Create(nameOfElement) {
-    return document.createElement(nameOfElement);
-}
-//tạo các element
-var table = Create("table");
-var thead = Create("thead");
-var tbody = Create("tbody");
 
-var styleAttribute1 = document.createAttribute("style");
-styleAttribute1.value = "color: red";
-thead.setAttributeNode(styleAttribute1);
-
-//them thead và tbody và thẻ table
-table.appendChild(thead);
-table.appendChild(tbody);
-
-var trow = Create("tr");
-thead.appendChild(trow);
-// tạo một mảng tạm thời
-var array1 = ["Id", "Name", "Email"];
-//lấy giá trị trang mảng cho vào th trong thẻ tr
-for (var i = 0; i < array1.length; i++) {
-    var th = Create("th");
-    var text = document.createTextNode(array1[i]);
-    th.appendChild(text);
-    trow.appendChild(th);
-};
-// tới phần tbody làm tương tự
-var trowBody1 = Create("tr");
-tbody.appendChild(trowBody1);
-// // tạo một mảng tạm thời chứa id,name,email.
-var array2 = [data.users[0].id, data.users[0].name, data.users[0].email];
-for (var i = 0; i < array2.length; i++) {
-    var td = Create("td");
-    var text = document.createTextNode(array2[i]);
-    td.appendChild(text);
-    trowBody1.appendChild(td);
-};
-for (var i = 0; i < data.users.length; i++) {
-    var trowBody = Create("tr");
-    tbody.appendChild(trowBody);
-    var array = [data.users[i].id, data.users[i].name, data.users[i].email];
+var str = data.users;
+for (var i = 0; i < str.length; i++) {
+    var tr = create("tr");
+    tbody.appendChild(tr);
+    var array = [str[i].id, str[i].name];
+    console.log(array);
     for (var j = 0; j < array.length; j++) {
-        var td = Create("td");
-        var text = document.createTextNode(array[j]);
-        td.appendChild(text);
-        trowBody.appendChild(td);
+        console.log(j);
+        var td = create("td");
+        var textNode = document.createTextNode(array[j]);
+        td.appendChild(textNode);
+        tr.appendChild(td);
     }
 }
-
-document.body.appendChild(table);

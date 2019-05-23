@@ -41,6 +41,7 @@ document.getElementById('1').innerHTML = doiTuongNam["name-of-dogs"][1];
 
 var arrayNameOfDogs = doiTuongNam["name-of-dogs"];
 console.log(arrayNameOfDogs);
+
 for (var i = 0; i < arrayNameOfDogs.length; i++) {
     console.log(i); // tăng biến giá trị của i
     var heading = document.createElement('h1');
