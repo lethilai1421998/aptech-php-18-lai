@@ -4,6 +4,7 @@ function loadDoc() {
     var xhttp = new XMLHttpRequest(); //class
     xhttp.onreadystatechange = function () {
         //console.log(this.readyState);
+        document.getElementById("button").style.display = "none";
         if (this.readyState == 4 && this.status == 200) {
             data = (JSON.parse(this.responseText));
 
