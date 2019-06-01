@@ -1,0 +1,23 @@
+#image-bg {
+    background-image: url('https://cdn.pixabay.com/photo/2014/04/14/20/11/japanese-cherry-trees-324175__340.jpg');
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.first {
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.Ponsition {
+    padding-top: 100px;
+}
+
+#image-bg1 {
+    background-image: url('https://cdn.pixabay.com/photo/2019/05/27/08/05/flowers-4232078__340.png');
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}

@@ -33,3 +33,7 @@
     border-radius: 10px;
     border: 1px solid black;
 }
+
+.filter {
+    filter: brightness(90%);
+}
