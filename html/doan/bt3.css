@@ -1,0 +1,24 @@
+#image-bg {
+    background-image: url('https://cdn.pixabay.com/photo/2019/06/01/22/01/seychelles-4245171_1280.jpg');
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.first {
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.Ponsition {
+    padding-top: 100px;
+}
+
+.Ponsition {
+    padding-top: 100px;
+}
+
+.mt {
+    background-color: aliceblue;
+}

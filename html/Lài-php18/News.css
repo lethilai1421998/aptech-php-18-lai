@@ -1,0 +1,58 @@
+.News__Image {
+ height: 200px;
+ background-position: center;
+ background-size: cover;
+ filter: brightness(50%);
+}
+
+.News__Col {
+ display: table-cell;
+}
+
+.News__Image--1 {
+ background-image: url('anh/1.jpg');
+}
+
+.News__Image--2 {
+ background-image: url('anh/2.jpg');
+}
+
+.News__Image--3 {
+ background-image: url('anh/3.jpg');
+}
+
+.News__Image--4 {
+ background-image: url('anh/4.jpg');
+}
+
+.News__Image--5 {
+ background-image: url('anh/5.jpg');
+}
+
+.News__Image--6 {
+ background-image: url('anh/6.jpg');
+}
+
+.News__Image--7 {
+ background-image: url('anh/7.jpg');
+}
+
+.News__Image--8 {
+ background-image: url('anh/8.jpg');
+}
+
+.News__Image--9 {
+ background-image: url('anh/9.jpg');
+}
+
+.News__Image--10 {
+ background-image: url('anh/10.jpg');
+}
+
+.News__Image--11 {
+ background-image: url('anh/11.jpg');
+}
+
+.News__Image--12 {
+ background-image: url('anh/12.jpg');
+}

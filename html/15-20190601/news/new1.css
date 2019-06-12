@@ -1,0 +1,75 @@
+.News__Image {
+ height: 250px;
+ background-position: center;
+ background-size: cover;
+ filter: brightness(50%);
+}
+
+.News__Image--first {
+ background: url('https://cdn.pixabay.com/photo/2014/04/14/20/11/japanese-cherry-trees-324175__340.jpg');
+}
+
+.News__Col {
+ display: table-cell;
+}
+
+.News__Image--first {
+ background: url('/aptech-php-18-lai/html/15-20190601/news/ảnh/1.jpg');
+}
+
+.News__Image--second {
+ background: url('/aptech-php-18-lai/html/15-20190601/news/ảnh/2.jpg');
+}
+
+.News__Image--third {
+ background: url('/aptech-php-18-lai/html/15-20190601/news/ảnh/3.jpg');
+}
+
+.News__Image--fourth {
+ background: url('/aptech-php-18-lai/html/15-20190601/news/ảnh/4.jpg');
+}
+
+.News__Image--fifth {
+ background: url('/aptech-php-18-lai/html/15-20190601/news/ảnh/5.jpg');
+}
+
+.News__Image--sixth {
+ background: url('/aptech-php-18-lai/html/15-20190601/news/ảnh/6.jpg');
+}
+
+.News__Image--seventh {
+ background: url('/aptech-php-18-lai/html/15-20190601/news/ảnh/7.jpg');
+}
+
+.News__Image--eighth {
+ background: url('/aptech-php-18-lai/html/15-20190601/news/ảnh/8.jpg');
+}
+
+.News__Image--ninth {
+ background: url('/aptech-php-18-lai/html/15-20190601/news/ảnh/9.jpg');
+}
+
+.News__Image--tenth {
+ background: url('/aptech-php-18-lai/html/15-20190601/news/ảnh/10.jpg');
+}
+
+.News__Image--eleventh {
+ background: url('/aptech-php-18-lai/html/15-20190601/news/ảnh/11.jpg');
+}
+
+.News__Image--twelveth {
+ background: url('/aptech-php-18-lai/html/15-20190601/news/ảnh/12.jpg');
+}
+
+.News__Image {
+ height: 150px;
+ background-position: center;
+ background-size: cover;
+ filter: brightness(50%);
+}
+
+@media screen and (max-width: 767px) {
+ .Navigation {
+  display: none;
+ }
+}
